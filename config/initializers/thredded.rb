@@ -164,4 +164,9 @@ Rails.application.config.to_prepare do
       render template: 'devise/sessions/new', status: :forbidden
     end
   end
+  Rails.application.config.to_prepare do
+  	Thredded.view_hooks.post_form.content_text_area.config.after do |form|
+    	content_tag 'trix-editor', '', input: "#{form.object_name}_content"
+  	end
+  end
 end

@@ -1,8 +1,17 @@
 en:
   thredded:
-    messageboard:
+    messageboard: 
       index:
-        page_title: Forums
+        page_title: Kategori
+      update: Perbaharui Kategori
+      create: Buat Kategori    
+      form: 
+        messageboard_group_id_label: Grup Kategori
+
     nav:
-      all_messageboards: Forums
+      all_messageboards: Kategori
+      edit_messageboard: Edit Kategori
+    messageboard_group: 
+      create: Buat Grup Kategori
+        
 
