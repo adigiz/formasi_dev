@@ -1,6 +1,7 @@
 @import "variables";
 @import "thredded-variables";
 @import "thredded";
+@import "trix.css";
 
 .thredded--main-container {
   // The padding and max-width are handled by the app's container.
@@ -10,3 +11,5 @@
     padding: 0;
   }
 }
+
+
