@@ -1,6 +1,7 @@
 //= require_self
 //= require_tree ./app
 
+
 (function () {
   this.App = this.App || {};
   var App = this.App;
